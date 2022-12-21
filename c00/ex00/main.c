@@ -1,10 +1,7 @@
-#include <unistd.h>
+#include "ft_putchar.c"
 void ft_putchar(char c);
-int main()
-{
+
+int main(){
 	ft_putchar('b');
 	return 0;
-}
-void ft_putchar(char c){
-	write(1,&c,1);
 }
